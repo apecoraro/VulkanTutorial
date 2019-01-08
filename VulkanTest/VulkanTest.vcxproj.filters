@@ -16,6 +16,9 @@
     <Filter Include="Shaders">
       <UniqueIdentifier>{31749930-8796-48e1-8393-f08c12f2b2db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{bda422ab-76e6-49ba-a617-b2361a75936d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,5 +35,10 @@
     <None Include="shader.vert">
       <Filter>Shaders</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texture.jpg">
+      <Filter>Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
